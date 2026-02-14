@@ -55,6 +55,16 @@ function App() {
         </div>
       </section>
 
+      <h3>Project Impact</h3>
+      <ul>
+        <li>Designed and developed a full-stack event discovery system</li>
+        <li>Implemented real-time filtering logic for personalized recommendations</li>
+        <li>Built REST API backend with scalable data handling</li>
+        <li>Deployed a complete production-ready web application</li>
+        <li>Demonstrates end-to-end system design skills</li>
+      </ul>
+
+
       {/* SCREENSHOTS */}
       <section className="section">
         <h2>Project Screenshots</h2>
@@ -63,6 +73,15 @@ function App() {
           <img src={process.env.PUBLIC_URL + "/img2.png"} alt="Events" />
           <img src={process.env.PUBLIC_URL + "/img3.png"} alt="API" />
         </div>
+      </section>
+
+      <section className="section">
+        <h2>System Architecture</h2>
+        <img
+          src={process.env.PUBLIC_URL + "/architecture.png"}
+          alt="Architecture"
+          style={{ width: "80%", borderRadius: "10px" }}
+        />
       </section>
 
       {/* DEPLOYMENT EXPERIENCE */}
@@ -84,6 +103,16 @@ function App() {
           title="Demo Video"
           allowFullScreen
         ></iframe>
+      </section>
+
+      <section className="section">
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>Frontend: React, HTML, CSS, JavaScript</li>
+          <li>Backend: Flask, REST API</li>
+          <li>Tools: Git, GitHub, VS Code</li>
+          <li>Deployment: GitHub Pages</li>
+        </ul>
       </section>
 
       {/* CONTACT */}
