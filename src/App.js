@@ -11,8 +11,12 @@ function App() {
         <p>Building real-world tools to solve student productivity problems.</p>
 
         <div className="buttons">
-          <a href="https://your-live-app-link.com" target="_blank">Live Project</a>
-          <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+          <a href="https://sknomercy.github.io/CAMPUSPULSE/" target="_blank" rel="noreferrer">
+            Live Project
+          </a>
+          <a href="https://github.com/SKNOMERCY" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
         </div>
       </section>
 
@@ -42,8 +46,12 @@ function App() {
         <p>React | Flask | REST API | JSON DB | GitHub Pages</p>
 
         <div className="buttons">
-          <a href="https://your-live-app-link.com" target="_blank">View Live App</a>
-          <a href="https://github.com/your-repo" target="_blank">View GitHub</a>
+          <a href="https://sknomercy.github.io/CAMPUSPULSE/" target="_blank" rel="noreferrer">
+            View Live App
+          </a>
+          <a href="https://github.com/SKNOMERCY/CAMPUSPULSE" target="_blank" rel="noreferrer">
+            View GitHub
+          </a>
         </div>
       </section>
 
@@ -51,9 +59,9 @@ function App() {
       <section className="section">
         <h2>Project Screenshots</h2>
         <div className="images">
-          <img src="/img1.png" alt="Homepage" />
-          <img src="/img2.png" alt="Events" />
-          <img src="/img3.png" alt="API" />
+          <img src={process.env.PUBLIC_URL + "/img1.png"} alt="Homepage" />
+          <img src={process.env.PUBLIC_URL + "/img2.png"} alt="Events" />
+          <img src={process.env.PUBLIC_URL + "/img3.png"} alt="API" />
         </div>
       </section>
 
@@ -81,9 +89,30 @@ function App() {
       {/* CONTACT */}
       <section className="section">
         <h2>Contact</h2>
-        <p>Email: yourmail@gmail.com</p>
-        <p>LinkedIn: linkedin.com/in/yourprofile</p>
-        <p>GitHub: github.com/yourusername</p>
+
+        <p>Email: secretkavin@gmail.com</p>
+
+        <p>
+          LinkedIn:{" "}
+          <a
+            href="https://www.linkedin.com/in/kavin-raj-578077383/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            kavin-raj-578077383
+          </a>
+        </p>
+
+        <p>
+          GitHub:{" "}
+          <a
+            href="https://github.com/SKNOMERCY"
+            target="_blank"
+            rel="noreferrer"
+          >
+            SKNOMERCY
+          </a>
+        </p>
       </section>
 
     </div>
