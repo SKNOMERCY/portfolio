@@ -6,18 +6,9 @@ function App() {
 
       {/* HERO SECTION */}
       <section className="hero">
-        <h1>Kavin SK</h1>
+        <h1>Kavin Raj SK</h1>
         <h2>CSE Student | Full Stack Developer</h2>
         <p>Building real-world tools to solve student productivity problems.</p>
-
-        <div className="buttons">
-          <a href="https://sknomercy.github.io/CAMPUSPULSE/" target="_blank" rel="noreferrer">
-            Live Project
-          </a>
-          <a href="https://github.com/SKNOMERCY" target="_blank" rel="noreferrer">
-            GitHub
-          </a>
-        </div>
       </section>
 
       {/* PROJECT SECTION */}
@@ -46,10 +37,19 @@ function App() {
         <p>React | Flask | REST API | JSON DB | GitHub Pages</p>
 
         <div className="buttons">
-          <a href="https://sknomercy.github.io/CAMPUSPULSE/" target="_blank" rel="noreferrer">
+          <a
+            href="https://sknomercy.github.io/CAMPUSPULSE/"
+            target="_blank"
+            rel="noreferrer"
+          >
             View Live App
           </a>
-          <a href="https://github.com/SKNOMERCY/CAMPUSPULSE" target="_blank" rel="noreferrer">
+
+          <a
+            href="https://github.com/SKNOMERCY/CAMPUSPULSE"
+            target="_blank"
+            rel="noreferrer"
+          >
             View GitHub
           </a>
         </div>
